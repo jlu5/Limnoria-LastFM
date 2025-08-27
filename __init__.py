@@ -39,7 +39,7 @@ import supybot.world as world
 
 # Use this for the version of this plugin.  You may wish to put a CVS keyword
 # in here if you're keeping the plugin in CVS or some similar system.
-__version__ = "2022.02.01+git"
+__version__ = "2025.08.26+git"
 
 # Replace this with an appropriate author or supybot.Author instance.
 __author__ = supybot.Author("Kevin Funk", "KRF", "krf@electrostorm.net")
@@ -62,7 +62,7 @@ __url__ = 'https://github.com/jlu5/SupyPlugins/tree/master/LastFM'
 
 from . import config
 from . import plugin
-from imp import reload
+from importlib import reload
 reload(plugin) # In case we're being reloaded.
 
 from .local import accountsdb
