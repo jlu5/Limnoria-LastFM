@@ -28,6 +28,6 @@ local supybot_test(py_version) = {
 
 [
     # Reduced to oldest and latest supported to avoid API call spam
-    supybot_test("3.8"),
-    supybot_test("3.12"),
+    supybot_test("3.9"),
+    supybot_test("3.13"),
 ]
